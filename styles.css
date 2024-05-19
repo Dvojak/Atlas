@@ -1,0 +1,62 @@
+/* styles.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+main.container-fluid {
+    padding: 20px;
+}
+
+#staty {
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.cvach {
+    height: 170px;
+    object-fit: cover;
+}
+
+.card {
+    margin: 1em;
+}
+
+.modal-content {
+    border-radius: 10px;
+}
+
+.modal-body {
+    padding: 10px 15px;
+}
